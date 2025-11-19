@@ -83,7 +83,7 @@ All tests should pass before publishing.
 - **Scope**: `@larrym`
 - **Access**: Public
 - **Main formats**: ESM and CommonJS
-- **Node.js requirement**: >=14.0.0
+- **Node.js requirement**: >=18.0.0
 
 ## Verifying the Package
 
