@@ -1,0 +1,51 @@
+{
+  "name": "@larrym/lz-string",
+  "version": "1.0.0",
+  "description": "LZ-based compression algorithm for JavaScript with ESM support",
+  "type": "module",
+  "main": "./src/lz-string.cjs",
+  "module": "./src/lz-string.js",
+  "types": "./src/lz-string.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/lz-string.d.ts",
+      "import": "./src/lz-string.js",
+      "require": "./src/lz-string.cjs",
+      "default": "./src/lz-string.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "prepublishOnly": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larrymotalavigne/lz-string.git"
+  },
+  "keywords": [
+    "lz",
+    "compression",
+    "string",
+    "lz-string",
+    "esm",
+    "compression-algorithm"
+  ],
+  "author": "Larry Motalavigne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/larrymotalavigne/lz-string/issues"
+  },
+  "homepage": "https://github.com/larrymotalavigne/lz-string#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
