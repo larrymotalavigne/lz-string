@@ -13,6 +13,10 @@ This package is a modern ESM-compatible fork of the original [lz-string](https:/
 - Works in Node.js and browsers
 - Multiple compression formats (Base64, UTF-16, URI-safe, Uint8Array)
 
+## Requirements
+
+- Node.js >= 18.0.0
+
 ## Installation
 
 ```bash
